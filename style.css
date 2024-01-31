@@ -40,6 +40,7 @@
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
     font-size: 14px;
+    margin-bottom: 0 !important;
 }
 
 .header_img {
@@ -47,6 +48,11 @@
 }
 
 /* Main*/
+
+.main_wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .text_content {
     display: flex;
@@ -75,6 +81,7 @@
     flex-direction: column;
     font-family: 'Archivo', sans-serif !important;
     border: none !important;
+    margin-bottom: 10px;
 }
 
 .products_cards h5 {
@@ -92,6 +99,7 @@
 .products_cards p {
     font-size: 20px;
     font-weight: 500;
+    font-family: 'Space Grotesk';
 }
 
 .img_card {
